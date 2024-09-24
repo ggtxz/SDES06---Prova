@@ -1,0 +1,11 @@
+SAC - 70 dias
+BAC - 4006,24
+EVM - 5 dias
+PV - 286,16
+AC - 300 fictício
+EV - 500 fictício
+CPI - 1,66
+SPI - 500/286,16 = 1,74
+TAC - 70/1,74 = 40,22
+EAC - 4006,27/1,66 = 2,41
+VAC - 1593,27
