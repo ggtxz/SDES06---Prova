@@ -1,0 +1,265 @@
+1) Aluno
+
+Atores: 1.
+- Aluno: Realiza seu próprio cadastro.
+
+Entidades: 1.
+- Aluno: Registro de informações pessoais e acadêmicas do aluno.
+
+Total de casos de uso: 4.
+- Criação do cadastro do aluno.
+- Alteração de dados do aluno.
+- Consulta de informações do aluno.
+- Remoção do aluno.
+
+Cálculo do Esforço:
+
+Esforço total = 4 x 1.2 (Fator técnico) x 0.9 (Fator ambiental) x 3 (horas por UCP)
+Esforço total = 4 x 1.2 x 0.9 x 3 = 12.96h
+
+Resultado:
+
+Número de Atores: 1
+Número de Entidades: 1
+Total de PCU: 4
+Esforço Estimado: Aproximadamente 12.96 horas.
+
+2) Professor
+
+Atores: 1.
+- Administrador: Gerencia o cadastro e manutenção dos professores.
+
+Entidades: 1.
+- Professor: Registro de informações pessoais e acadêmicas do professor.
+
+Total de casos de uso: 4.
+- Criação do cadastro do professor.
+- Alteração de dados do professor.
+- Consulta de informações do professor.
+- Remoção do professor.
+
+Cálculo do Esforço:
+
+Esforço total = 4 x 1.2 (Fator técnico) x 0.9 (Fator ambiental) x 3 (horas por UCP)
+Esforço total = 4 x 1.2 x 0.9 x 3 = 12.96h
+
+Resultado:
+
+Número de Atores: 1
+Número de Entidades: 1
+Total de PCU: 4
+Esforço Estimado: Aproximadamente 12.96 horas. 
+
+3) Disciplinas
+
+Atores: 2.
+- Administrador: Cria, edita e remove disciplinas.
+- Professor: Consulta as disciplinas em que ministra aulas e os alunos matriculados.
+
+Entidades: 1.
+- Disciplina: Entidade que armazena informações sobre o nome da disciplina, professor responsável, sala onde ocorre e alunos matriculados.
+
+Total de Casos de Uso: 4.
+
+- Criação da disciplina.
+- Edição da disciplina.
+- Remoção da disciplina.
+- Consulta de disciplinas disponíveis.
+
+Cálculo do Esforço:
+
+Esforço total: 4 x 1.2 (Fator técnico) x 0.9 (Fator ambiental) x 3 (horas por UCP)
+Esforço total: 4 x 1.2 x 0.9 x 3 = 12.96 horas
+
+Resultado:
+
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 4
+Esforço Estimado: Aproximadamente 12.96 horas
+
+4) Sala
+
+Atores: 2.
+- Administrador: Cria, edita e remove salas.
+- Professor: Consulta as salas onde suas disciplinas ocorrem.
+
+Entidades: 1.
+- Sala: Entidade que armazena informações sobre o local físico da aula, vinculada às disciplinas e às câmeras.
+
+Total de Casos de Uso: 4.
+- Criação da sala.
+- Edição da sala.
+- Remoção da sala.
+- Consulta de salas disponíveis.
+
+Cálculo do Esforço:
+
+Esforço total = 4 x 1.2 (Fator técnico) x 0.9 (Fator ambiental) x 3 (horas por UCP)
+Esforço total = 4 x 1.2 x 0.9 x 3 = 12.96 horas
+
+Resultado:
+
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 4
+Esforço Estimado: Aproximadamente 12.96 horas
+
+5) Câmera
+
+Atores: 2.
+Administrador: Cria, edita e remove câmeras.
+Professor: Consulta as câmeras disponíveis e associadas às suas disciplinas.
+
+Entidades: 1. 
+Câmera: Representa a entidade que coleta imagens e é associada a uma sala para monitoramento e reconhecimento facial.
+
+Total de Casos de Uso: 4.
+Criação da câmera.
+Edição da câmera.
+Remoção da câmera.
+Consulta de câmeras disponíveis.
+
+Cálculo do Esforço:
+Esforço total = 4 x 1.2 (Fator técnico) x 0.9 (Fator ambiental) x 3 (horas por UCP)
+Esforço total = 4 x 1.2 x 0.9 x 3 = 12.96 horas
+
+Resultado:
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 4
+Esforço Estimado: Aproximadamente 12.96 horas
+
+6) Convites
+
+Atores: 2.
+- Administrador: Cria, edita e remove convites para alunos.
+- Professor: Consulta o status dos convites enviados para os alunos.
+
+Entidades: 1.
+- Convite: Representa o convite enviado ao aluno, associado a uma disciplina e ao status (Aprovado, Reprovado ou Pendente).
+
+Total de Casos de Uso: 4.
+
+Criação do convite.
+Edição do convite.
+Remoção do convite.
+Consulta de convites enviados.
+
+Cálculo do Esforço:
+
+Esforço total: 4 x 1.2 (Fator técnico) x 0.9 (Fator ambiental) x 3 (horas por UCP)
+Esforço total: 4 x 1.2 x 0.9 x 3 = 12.96 horas
+
+Resultado:
+
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 4
+Esforço Estimado: Aproximadamente 12.96 horas
+
+7) Relatório de Planilha de Presença da Disciplina
+
+Atores: 2.
+- Professor: Cria a disciplina e ativa o sistema de reconhecimento facial.
+- Sistema de Reconhecimento Facial: Ator técnico que identifica e registra a presença.
+
+Entidades: 1.
+- Planilha de Presença por Disciplina: Registro de presenças dos alunos naquela disciplina.
+
+Total de casos de uso: 2.
+- Criação da planilha pelo professor.
+- Preenchimento automático da planilha pelo sistema de reconhecimento facial.
+
+Cálculo do Esforço:
+
+Esforço total = 2 x 1.2(Fator técnico) x 0.9(Fator ambiental) x 3(horas por UCP)
+Esforço total = 2 x 1.2 x 0.9 x 3 = 6.48h
+
+Resultado:
+
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 2
+Esforço Estimado: Aproximadamente 6.48 horas.
+
+8) Relatório de Planilha de Presença Geral do Aluno
+
+Atores: 2.
+- Aluno: Consulta a planilha de presença geral.
+- Sistema de Reconhecimento Facial: Ator técnico que registra as presenças.
+
+Entidades: 1.
+- Planilha de Presença Geral do Aluno: Registro de todas as presenças de um aluno em suas disciplinas.
+
+Total de casos de uso: 2.
+- Criação da planilha de presença geral pelo sistema.
+- Consulta da planilha pelo aluno
+
+Cálculo do Esforço:
+
+Esforço total = 2 x 1.2(Fator técnico) x 0.9(Fator ambiental) x 3(horas por UCP)
+Esforço total = 2 x 1.2 x 0.9 x 3 = 6.48h
+
+Resultado:
+
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 2
+Esforço Estimado: Aproximadamente 6.48 horas.
+
+9) Comprovante de Presença
+
+Atores: 2.
+- Aluno: Recebe o e-mail com o comprovante de presença.
+- Sistema de Reconhecimento Facial: Ator técnico que identifica a presença ou ausência do aluno e gera o comprovante.
+
+Entidades: 1.
+- E-mail de Comprovante de Presença: Registro enviado ao aluno com o status de presença ou ausência, dados da disciplina e horário.
+
+Casos de Uso: 2.
+- Geração do e-mail de comprovante: Envio automático de um e-mail com o status (presente/ausente) após o reconhecimento facial.
+- Registro da presença: Atualização do status de presença na disciplina após a identificação facial.
+
+Cálculo do Esforço para o Relatório de Comprovante de Presença:
+
+Esforço total = 2 (casos de uso) × 1.2 (Fator técnico) × 0.9 (Fator ambiental) × 3 (horas por UCP)
+Esforço total = 2 × 1.2 × 0.9 × 3 = 6.48 horas
+
+Resultado:
+
+Número de Atores: 2
+Número de Entidades: 1
+Total de PCU: 2
+Esforço Estimado: Aproximadamente 6.48 horas.
+
+10) Convites
+
+Atores: 3.
+- Professor: Envia convites para os alunos.
+- Aluno: Recebe e pode aceitar ou recusar os convites.
+- Sistema: Ator técnico responsável por processar as respostas dos alunos e gerar o relatório.
+
+Entidades: 1.
+Relatório de Convites: Consolidação dos convites enviados, aceitos, recusados e pendentes.
+
+Casos de Uso: 3.
+- Envio de Convites: O professor envia convites aos alunos para participação em eventos ou aulas extras.
+- Resposta dos Alunos: O sistema processa as respostas (aceitar/recusar) dos alunos e atualiza o relatório.
+- Geração do Relatório: Relatório final exibindo o número total de convites enviados, aceitos, recusados e pendentes.
+
+Cálculo do Esforço para o Relatório de Convites:
+Esforço total = 3 (casos de uso) × 1.2 (Fator técnico) × 0.9 (Fator ambiental) × 3 (horas por UCP)
+Esforço total = 3 × 1.2 × 0.9 × 3 = 9.72 horas
+
+Resultado:
+
+Número de Atores: 3
+Número de Entidades: 1
+Total de PCU: 3
+Esforço Estimado: Aproximadamente 9.72 horas.
+
+-----------------------------------
+
+Custo total = 4006.27
+Tempo estimado total = 93.96h
